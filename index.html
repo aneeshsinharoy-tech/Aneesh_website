@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aneesh Sinha Roy - Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #0b1220;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    /* HERO */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 10%;
+      background: linear-gradient(135deg, #0f172a, #020617);
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+
+    .hero-text h2 {
+      font-size: 24px;
+      margin-top: 10px;
+      color: #cbd5e1;
+    }
+
+    .hero-text p {
+      margin-top: 15px;
+      color: #94a3b8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 18px;
+      background: #38bdf8;
+      color: #000;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .hero img {
+      width: 320px;
+      border-radius: 20px;
+      border: 3px solid #38bdf8;
+      box-shadow: 0 0 30px rgba(56,189,248,0.3);
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 50px 10%;
+    }
+
+    h3 {
+      font-size: 28px;
+      color: #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    /* CONTACT */
+    .contact p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+      border-top: 1px solid #1f2937;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero img {
+        margin-top: 20px;
+        width: 250px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Aneesh Sinha Roy</h1>
+      <h2>Aspiring AI/ML Engineer | CSE Student</h2>
+      <p>
+        Passionate about Artificial Intelligence, Machine Learning and building intelligent systems that solve real-world problems.
+      </p>
+      <a class="btn" href="#contact">Contact Me</a>
+    </div>
+
+    <img src="/mnt/data/file_00000000dfd0720888a865135a2d70b4" alt="Profile Photo">
+  </div>
+
+  <!-- ABOUT -->
+  <section>
+    <h3>About Me</h3>
+    <div class="card">
+      I am a Computer Science student focused on AI/ML development, problem solving, and software engineering.
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h3>Education</h3>
+    <div class="card">
+      <ul>
+        <li>Don Bosco School, Liluah, Howrah</li>
+        <li>ICSE 2024 – Computer Applications: 100/100</li>
+        <li>ISC 2026 – Computer Science: 99/100</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section>
+    <h3>Courses & Training</h3>
+    <div class="card">
+      <ul>
+        <li>AI & ML – Ramakrishna Mission Vivekananda Tirtha</li>
+        <li>AI Exposure – IIT Kharagpur</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h3>Skills</h3>
+    <div class="card">
+      <ul>
+        <li>Python Programming</li>
+        <li>Machine Learning Basics</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>TensorFlow (Beginner)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h3>Contact</h3>
+    <div class="card contact">
+      <p>Email: <a href="mailto:aneeshsinharoy@gmail.com">aneeshsinharoy@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917044909440">+91 7044909440</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Aneesh Sinha Roy | All Rights Reserved
+  </footer>
+
+</body>
+</html>
